@@ -14,6 +14,8 @@
 		229EA21C1A8C0F7500567410 /* FacebookDemoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EA21B1A8C0F7500567410 /* FacebookDemoSwiftTests.swift */; };
 		229EA2271A8C0FD500567410 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EA2261A8C0FD500567410 /* MainViewController.swift */; };
 		229EA2291A8C0FDE00567410 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EA2281A8C0FDE00567410 /* LoginViewController.swift */; };
+		535A7F431AE9CD8A007A1AB8 /* StatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535A7F421AE9CD8A007A1AB8 /* StatusCell.swift */; };
+		535A7F451AE9CDAC007A1AB8 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535A7F441AE9CDAC007A1AB8 /* PhotoCell.swift */; };
 		B96A2F0A62CD49DC8578F778 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0617C99C97214D66B3FCA0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,8 @@
 		229EA2261A8C0FD500567410 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		229EA2281A8C0FDE00567410 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		229EA22A1A8C101800567410 /* FacebookDemoSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookDemoSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		535A7F421AE9CD8A007A1AB8 /* StatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusCell.swift; sourceTree = "<group>"; };
+		535A7F441AE9CDAC007A1AB8 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		9E0617C99C97214D66B3FCA0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE1F610D2902AD8300C0556 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FA13850E318BABA9DE9D1E19 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				229EA20E1A8C0F7500567410 /* LaunchScreen.xib */,
 				229EA2031A8C0F7500567410 /* Supporting Files */,
 				229EA22A1A8C101800567410 /* FacebookDemoSwift-Bridging-Header.h */,
+				535A7F421AE9CD8A007A1AB8 /* StatusCell.swift */,
+				535A7F441AE9CDAC007A1AB8 /* PhotoCell.swift */,
 			);
 			path = FacebookDemoSwift;
 			sourceTree = "<group>";
@@ -285,8 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				229EA2291A8C0FDE00567410 /* LoginViewController.swift in Sources */,
+				535A7F451AE9CDAC007A1AB8 /* PhotoCell.swift in Sources */,
 				229EA2061A8C0F7500567410 /* AppDelegate.swift in Sources */,
 				229EA2271A8C0FD500567410 /* MainViewController.swift in Sources */,
+				535A7F431AE9CD8A007A1AB8 /* StatusCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
